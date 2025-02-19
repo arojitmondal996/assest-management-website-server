@@ -1,0 +1,35 @@
+{
+  "name": "manager",
+  "version": "1.0.0",
+  "description": "This is a HR management system for helping HR manager to manage thier assets",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Programming-Hero-Web-Course4/b10a12-server-side-Rashad-Stack.git"
+  },
+  "author": "Rashadstack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Programming-Hero-Web-Course4/b10a12-server-side-Rashad-Stack/issues"
+  },
+  "homepage": "https://github.com/Programming-Hero-Web-Course4/b10a12-server-side-Rashad-Stack#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "http-status-codes": "^2.3.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.12.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "eslint": "^9.18.0",
+    "globals": "^15.14.0"
+  }
+}

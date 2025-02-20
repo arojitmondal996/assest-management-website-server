@@ -13,7 +13,7 @@ const { createAppError, globalErrorHandler } = require("./utils/middleware");
 
 const app = express();
 const corsOptions = {
-  origin: ["http://localhost:5173", "https://rashad-stack-manager.netlify.app"],
+  origin: ["http://localhost:5173", "https://assets-management-dc121.web.app"],
 };
 
 app.use(cors(corsOptions));
